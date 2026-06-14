@@ -45,7 +45,7 @@ if st.button("🚀 Bắt đầu soạn giáo án", type="primary", use_container
             try:
                 # Cấu hình AI với API Key do người dùng nhập
                 genai.configure(api_key=api_key)
-                model = genai.GenerativeModel('gemini-1.5-flash')
+                model = genai.GenerativeModel('gemini-2.5-flash')
                 
                 # Câu lệnh (Prompt) chuẩn hóa để AI viết giáo án
                 prompt = f"""
